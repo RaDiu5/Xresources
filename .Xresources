@@ -1,0 +1,58 @@
+! - Colors -
+!XTerm*background: black
+!XTerm*foreground: white
+!XTerm*pointerColor: red
+!XTerm*pointerColorBackground: white
+!XTerm*cursorColor: white
+!-------------------------------------------------------------------------------
+! Colors
+! vim: set filetype=xdefaults :
+XTerm*foreground: #D7D0C7
+XTerm*background: #151515
+
+!black
+XTerm*color0:     #AF875F
+XTerm*color8:     #AF875F
+!XTerm*color0:     #101010
+!XTerm*color8:     #404040
+!red
+XTerm*color1:     #E84F4F
+XTerm*color9:     #D23D3D
+!green
+XTerm*color2:     #B8D68C
+XTerm*color10:    #A0CF5D
+!yellow
+XTerm*color3:     #E1AA5D
+XTerm*color11:    #F39D21
+!blue
+XTerm*color4:     #7DC1CF
+XTerm*color12:    #4E9FB1
+!magenta
+XTerm*color5:     #9B64FB
+XTerm*color13:    #8542FF
+!cyan
+XTerm*color6:     #6D878D
+XTerm*color14:    #42717B
+!white
+XTerm*color7:     #dddddd
+XTerm*color15:    #dddddd
+
+URxvt*borderColor:        #151515
+URxvt*colorBD:            #ffffff
+URxvt*cursorColor:        #ff8939
+URxvt*cursorColor2:       #151515
+
+
+! - Settings -
+XTerm*internalBorder: 3
+XTerm*loginShell: true
+XTerm*scrollBar: false
+XTerm*scrollKey: true
+XTerm*saveLines: 100000
+XTerm*multiClickTime: 250 
+XTerm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)
+XTerm*selectToClipboard: true
+XTerm*termName: xterm-256color
+XTerm*metaSendsEscape: true
+XTerm*locale: true
+xterm*bellIsUrgent: true
